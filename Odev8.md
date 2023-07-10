@@ -31,7 +31,11 @@
 -  Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
 >DELETE FROM employee WHERE name = 'Jane Smith';
+
 >DELETE FROM employee WHERE birthday = '1992-08-25';
+
 >DELETE FROM employee WHERE email = 'jane.smith@example.com';
+
 >DELETE FROM employee WHERE name = 'Michael Brown' AND birthday = '1985-11-10';
+
 >DELETE FROM employee WHERE name = 'Emily Johnson' AND birthday = '1998-03-22' AND email = 'emily.johnson@example.com';
