@@ -18,9 +18,13 @@
 -  Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
 >UPDATE employee SET name = 'Jane Smith' WHERE id = 1;
+
 >UPDATE employee SET birthday = '1992-08-25' WHERE id = 2;
+
 >UPDATE employee SET email = 'jane.smith@example.com' WHERE id = 3;
+
 >UPDATE employee SET name = 'Michael Brown', birthday = '1985-11-10' WHERE id = 4;
+
 >UPDATE employee SET name = 'Emily Johnson', birthday = '1998-03-22', email = 'emily.johnson@example.com' WHERE id = 5;
 
 
